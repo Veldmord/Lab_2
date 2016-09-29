@@ -1,5 +1,5 @@
 language: generic 
-matrix:
+matrix: 
   include:
     - os: linux
       sudo: required
