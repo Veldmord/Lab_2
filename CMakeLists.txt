@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8) 
 
-project(hello_world)
+project(hello_world) 
 
 include_directories(include)
 
