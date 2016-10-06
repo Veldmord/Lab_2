@@ -1,7 +1,11 @@
-#include <iostream>
-#include <print_hello_world.h>
+#include "Header.h"
 
-void print_hello_world()
+void function_(int a)
 {
-    std::cout << "hello world!" << std::endl;
+	int sum = 0;
+	for(int i = 0; i < a; i++)
+	{
+		sum += i;
+	}
+	std::cout << "Sum = " << sum << std::endl;
 }
