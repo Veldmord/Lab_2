@@ -1,1 +1,3 @@
-void print_hello_world();
+#include <iostream>
+
+void function_(int a);
